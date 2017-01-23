@@ -1,4 +1,4 @@
-# udacity-machine-leearning
+# udacity-machine-learning
 udacity-homework
 
 
