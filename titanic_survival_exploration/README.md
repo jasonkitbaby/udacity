@@ -1,12 +1,13 @@
 
 
-run notebook
-jupyter notebook titanic_survival_exploration.ipynb
+# run notebook #
+    jupyter notebook titanic_survival_exploration.ipynb
 
 
+# conver notebook to html #
 以在 %matplotlib inline 之后使用 %config InlineBackend.figure_format = 'retina' 来呈现分辨率较高的图像。
 
-jupyter nbconvert --to html notebook.ipynb
+    jupyter nbconvert --to html notebook.ipynb
 
 
 # 运行幻灯片 #
@@ -19,4 +20,4 @@ jupyter nbconvert --to html notebook.ipynb
 
 要转换它并立即看到它，请使用
 
-jupyter nbconvert notebook.ipynb --to slides --post serve
+    jupyter nbconvert notebook.ipynb --to slides --post serve
